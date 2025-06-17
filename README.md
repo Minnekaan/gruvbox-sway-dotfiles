@@ -28,3 +28,8 @@ vlc pavucontrol blueberrypipewire pipewire-alsa alsa-utils unzip ttf-nerd-fonts-
 Потом скопировать конфиги или просто `git clone` и всё копирнуть в .config в папке пользователя.  
 
 > знали бы как я себя чувствовал когда гитом пользовался через терминал...
+  
+##### Фоточки?
+![](sway1.png)
+и фото 2
+![](sway2.png)
