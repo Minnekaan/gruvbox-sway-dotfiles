@@ -33,3 +33,5 @@ sway swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fo
 ![](sway1.png)
 и фото 2
 ![](sway2.png)
+и фото wofi
+![](wofi.png)
