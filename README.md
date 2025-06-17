@@ -20,9 +20,9 @@ __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch + hyfetch`
 4. QT проги (как в 3 пункте)
 5. возможно бар
 #### Так как это поставить?  
-Установить эти пакеты ниже (список что я стаивл для рача, рачка, арча).
+Установить эти пакеты ниже (список что я стаивл для рача, рачка, арча. В целом можно отдельно сразу это всё ставить и должно заработать, для этого я вынесу в отдельный файл).
 ```
-vlc pavucontrol blueberrypipewire pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-font-nerd ttf-jetbrains-mono ttf-jetbrains-mono waybar sway xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox grimbrightnessctl wireplumber swaybg mako gtk-engine-murrine firefox 
+sway swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox grim brightnessctl wireplumber mako gtk-engine-murrine firefox 
 ```
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть в .config в папке пользователя.  
