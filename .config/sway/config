@@ -82,11 +82,11 @@ exec swayidle -w \
 
 
 #TrackPoint
-input "2:10:TPPS/2_IBM_TrackPoint" {
-   dwt enabled
-   pointer_accel -0.8
-   scroll_factor 0.5
-}
+#input "2:10:TPPS/2_IBM_TrackPoint" {
+#   dwt enabled
+#   pointer_accel -0.8
+#   scroll_factor 0.5
+#}
 
 
 

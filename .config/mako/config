@@ -1,9 +1,6 @@
 anchor=top-center
 default-timeout=5000
 
-icons=1
-icon-path=/usr/share/icons/Paper-Mono-Dark/
-icon-location=left
 
 # Format
 
