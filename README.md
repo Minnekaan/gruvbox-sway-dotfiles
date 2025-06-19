@@ -28,6 +28,22 @@ sway swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fo
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть в .config в папке пользователя.  
 
+Flatpak тему я беру от Fausto-Korpsvart/Gruvbox-GTK-Theme
+и что бы вы не тупили как я то ниже команды которые надо вписать что бы тема рименилась когда вы поставите:  
+```
+sudo flatpak override --filesystem=$HOME/.themes
+```
+
+```
+sudo flatpak override --filesystem=xdg-config/gtk-4.0
+```
+
+Ну и можно сразу доступ к иконкам дать:
+
+```
+sudo flatpak override --filesystem=$HOME/.icons
+```
+
 > знали бы как я себя чувствовал когда гитом пользовался через терминал...
   
 ##### Фоточки?
