@@ -44,6 +44,12 @@ sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=$HOME/.icons
 ```
 
+Включение сервиса блютуза с его запуском сейчас же:
+
+```
+sudo systemctl enable --now bluetooth
+```
+
 > знали бы как я себя чувствовал когда гитом пользовался через терминал...
   
 ##### Фоточки?
