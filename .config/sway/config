@@ -275,8 +275,13 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 10%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 10%+
 
-    # Скриншоты
-    bindsym Print exec grim | wl-copy
+    #-- Скриншоты --
+
+#скринот прямо в буфер
+    bindsym Print exec flameshot gui --raw | wl-copy	
+
+#можно сохранить и тп (но не копирует)
+    bindsym Ctrl+Print exec flameshot gui 		
 
 
 #-------- БАР ---------
