@@ -5,13 +5,14 @@
 Тема - `Gruvbox`   
 Браузер - `Firefox`  
 Терминал - `Foot`  
-Конус - `vlc`  
+Видео + Аудио - `VLC`  
 Бар - `Waybar`  
-Меню приложений - `wofi`  
+Меню приложений - `Wofi`  
 Настройка wifi - `nmtui`  
 Аудиосистема - `Pipewire`  
-Проводник - `Команды в терминале`  
-Музыка - `Выберете сами cmus или musikcube`   
+Проводник или Файловый менеджер - `Nemo`  
+Музыка - `Выберете сами cmus или musikcube или ещё что то`  
+Просмотр фотографий - `Gwenview`
 __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch + hyfetch`    
 ### Что надо допилить и мне лень
 1. права доступа, типо то что в USR вылазить или когда программе надо от рута запустится где то (я не помню чесно как называется)
@@ -23,7 +24,7 @@ __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch + hyfetch`
 #### Так как это поставить?  
 Установить эти пакеты ниже (список что я стаивл для рача, рачка, арча. В целом можно отдельно сразу это всё ставить и должно заработать, для этого я вынесу в отдельный файл).
 ```
-sway swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox grim brightnessctl wireplumber mako gtk-engine-murrine firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf
+sway swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox grim brightnessctl wireplumber mako gtk-engine-murrine firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf swaylock htop gwenview nemo
 ```
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть в .config в папке пользователя.  
