@@ -1,8 +1,11 @@
 # Введение 
 Самый крутой конфиг в мире на сваи (неа, его надо пилить и пилить, но с пивком потянет).
-Основано на арче + sway (не удивительно в целом). Конфиг это сборная солянка из других конфигов, конфиг больше пилился под 1366x768 экран без дополнительных дисплеев, так что увы, дальше придётся самим ручками его допиливать если что-то не будет работать. (И вот по этому у меня Sig=yes/no и блютуз с Yes/No, оно просто обрезается и выглядит плохо).   
+Основано на арче + sway (не удивительно в целом). Конфиг это сборная солянка из других конфигов, конфиг больше пилился под 1366x768 экран без дополнительных дисплеев, так что увы, дальше придётся самим ручками его допиливать если что-то не будет работать. (И вот по этому у меня Sig=yes/no и блютуз с Yes/No, оно просто обрезается и выглядит плохо).
+А так же, хочу сказать заранее что я лох в дотах и это моё первое документирование того чего я сделал и +- нормально сделанные доты).
+
 ## Что там по софту основному
 Тема - `Gruvbox`   
+Иконки - [`Papirus`](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  
 Браузер - `Firefox`  
 Терминал - `Foot`  
 Видео + Аудио - `VLC`  
@@ -14,6 +17,7 @@
 Музыка - Выберете сами `cmus` или `musikcube` или ещё что то  
 Просмотр фотографий - `Gwenview`  
 Скриншоты - `Flameshot`  
+PDF файлы - `zathura`  
 __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch` + `hyfetch`    
 ### Что надо допилить и мне лень
 1. права доступа, типо то что в USR вылазить или когда программе надо от рута запустится где то (я не помню чесно как называется)
@@ -23,7 +27,7 @@ __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch` + `hyfetch`
 #### Так как это поставить?  
 Установить эти пакеты ниже (список что я стаивл для рача, рачка, арча. В целом можно отдельно сразу это всё ставить и должно заработать, для этого я вынесу в отдельный файл).
 ```
-sway swayidle swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox brightnessctl wireplumber mako firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf swaylock htop gwenview nemo flameshot gtk-engine-murrine gtk-engines
+sway swayidle swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox brightnessctl wireplumber mako firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf swaylock htop gwenview nemo flameshot gtk-engine-murrine gtk-engines zathura
 ```
 
 Так же из AUR лучше поставить (для устаовки тем для QT):  
@@ -34,8 +38,8 @@ qt6ct-kde qt5ct-kde
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть из .config в .config каталоге пользователя.  
 
-Flatpak тему я беру от Fausto-Korpsvart/Gruvbox-GTK-Theme
-и что бы вы не тупили как я то ниже команды которые надо вписать что бы тема рименилась когда вы поставите:  
+Flatpak тему я беру от [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme), сочитается темя оч так себе, но я другой особо не нашел (плохо искал, и это мне выдал SearXNG, но вель всегда можно форкнуть).
+
 ```
 sudo flatpak override --filesystem=$HOME/.themes
 ```
@@ -69,6 +73,4 @@ sudo systemctl enable --now bluetooth
   
 ![wofi1](wofi.png)  
   
-###### Развитие дотов?
-Буду ли я его доделывать?  
-Я не знаю. Если у меня будет желание использовать арч с тайлингом, то да. Но, у меня больше желания быть как один человек (это не оскорбление, а реальный человек) и использовать Slackware + Windows нежели Arch Linux (мне просто арч как то не заходил всегда).
+
