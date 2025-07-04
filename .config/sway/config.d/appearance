@@ -33,12 +33,9 @@
 
 #---------- Насилие GTK ----------
 set $gnome-schema org.gnome.desktop.interface
-	exec_always {
-		gsettings set $gnome-schema gtk-theme 'Gruvbox-Dark'
-		gsettings set $gnome-schema font-name 'JetBrains Mono 10'
-
-
-		# Отключение кнопок управления окном
-			gsettings set org.gnome.desktop.wm.preferences button-layout ''
-
+    exec_always {
+        gsettings set $gnome-schema gtk-theme 'Gruvbox-Dark'
+        gsettings set $gnome-schema icon-theme 'Papirus-Dark'
+        gsettings set $gnome-schema font-name 'jetbrains mono 10'
+	gsettings set org.gnome.desktop.wm.preferences button-layout ''
 }
