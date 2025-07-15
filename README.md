@@ -5,6 +5,7 @@
 
 ## Что там по софту основному
 Тема - `Gruvbox`   
+Тема GTK - [`Gruvbox-GTK-Theme`](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)  
 Иконки - [`Papirus`](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)  
 Браузер - `Firefox`  
 Терминал - `Foot`  
@@ -14,13 +15,13 @@
 Настройка wifi - `nmtui`  
 Аудиосистема - `Pipewire`  
 Проводник или Файловый менеджер - `Nemo`  
-Музыка - Выберете сами `cmus` или `musikcube` или ещё что то  
+Музыка - Выберете сами `cmus` или `musikcube` или ещё что-то  
 Просмотр фотографий - `Gwenview`  
 Скриншоты - `Flameshot`  
 PDF файлы - `zathura`  
-__ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch` + `hyfetch`    
+
 ### Что надо допилить и мне лень
-1. права доступа, типо то что в USR вылазить или когда программе надо от рута запустится где то (я не помню чесно как называется)
+1. Polkitd
 2. тему для QT
 3. возможно бар
 4. надо убирать bluetooth с waybar при отсутствии такого модуля на материнской плате
@@ -30,7 +31,7 @@ __ОЧЕНЬ ВАЖНАЯ ДЕТАЛЬ: ФЕТЧ__ - `fastfetch` + `hyfetch`
 sway swayidle swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox brightnessctl wireplumber mako firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf swaylock htop gwenview nemo flameshot gtk-engine-murrine gtk-engines zathura
 ```
 
-Так же из AUR лучше поставить (для устаовки тем для QT):  
+Так же из AUR можно поставить (для устаовки тем для QT):  
 ```
 qt6ct-kde qt5ct-kde
 ```
@@ -38,7 +39,7 @@ qt6ct-kde qt5ct-kde
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть из .config в .config каталоге пользователя.  
 
-Flatpak тему я беру от [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme), сочитается темя оч так себе, но я другой особо не нашел (плохо искал, и это мне выдал SearXNG, но вель всегда можно форкнуть).
+Flatpak тему я беру от [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme), сочитается тема оч так себе, но я другой особо не нашел (плохо искал, и это мне выдал SearXNG, но вель всегда можно форкнуть).
 
 ```
 sudo flatpak override --filesystem=$HOME/.themes
