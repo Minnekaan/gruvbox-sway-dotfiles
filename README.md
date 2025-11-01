@@ -40,7 +40,7 @@ qt6ct-kde qt5ct-kde
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть из .config в .config каталоге пользователя.  
 
-Flatpak тему я беру от [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme), сочитается тема оч так себе, но я другой особо не нашел (плохо искал, и это мне выдал SearXNG, но вель всегда можно форкнуть).
+Flatpak тему я беру от [Fausto-Korpsvart/Gruvbox-GTK-Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme), сочитается тема оч так себе, но я другой особо не нашел (плохо искал, и это мне выдал SearXNG, но ведь всегда можно форкнуть).
 
 ```
 sudo flatpak override --filesystem=$HOME/.themes
@@ -56,7 +56,7 @@ sudo flatpak override --filesystem=xdg-config/gtk-4.0
 sudo flatpak override --filesystem=$HOME/.icons
 ```
 
-Включение сервиса блютуза с его запуском сейчас же:
+Включение + запуск Bluetooth:
 
 ```
 sudo systemctl enable --now bluetooth
