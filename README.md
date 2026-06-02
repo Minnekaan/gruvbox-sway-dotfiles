@@ -74,5 +74,26 @@ sudo systemctl enable --now bluetooth
 и фото wofi  
   
 ![wofi1](wofi.png)  
+
+
+
+###### Че то надо делать
+спустя год вроде, решил опять поставить
+проблема с flameshot в виде 
+
+```flameshot: warning: Если настройка useGrimAdapter не включена, будет использоваться протокол DBus. Следует отметить, что использование протокола DBus в Wayland не рекомендуется. Рекомендуется включить настройку useGrimAdapter в файле flameshot.ini, чтобы активировать общий адаптер снимков экрана Wayland на основе Grim / flameshot: error: Не удалось захватить экран / flameshot: error: Не удалось захватить экран / QLayout: Attempting to add QLayout "" to SidePanelWidget "", which already has a layout / flameshot: info: Screenshot aborted.```    
+
+p.s. пометка в виде ```/``` это типо перенос текста за ним на следющую строку, да
+
+воот
+
+решается в ``` ~/.config/flameshot/flameshot.ini```
+надо добавить две строки что бы работало нормально
+
+```
+useGrimAdapter=true
+disabledGrimWarning=true
+```
+ну и в целом должно работать (у меня так)
   
 
