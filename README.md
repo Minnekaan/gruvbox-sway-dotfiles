@@ -32,10 +32,23 @@ PDF файлы - `zathura`
 sway swayidle swaybg vlc pavucontrol blueberry pipewire-alsa alsa-utils unzip ttf-nerd-fonts-symbols ttf-jetbrains-mono waybar xorg libnotify wl-clipboard pipewire-pulse ly xdg-desktop-portal xdg-desktop-portal-gtk xdg-desktop-portal-wlr go wofi foot wayland pipewire git gnu-free-fonts noto-fonts ttf-bitstream-vera fish ttf-croscore ttf-dejavu ttf-droid ttf-ibm-plex ttf-input ttf-input-nerd ttf-liberation ttf-roboto firefox brightnessctl wireplumber mako firefox bluez bluez-utils ttf-linux-libertine  ttf-indic-otf swaylock htop gwenview nemo flameshot gtk-engine-murrine gtk-engines zathura
 ```
 
-Так же из AUR можно поставить (для устаовки тем для QT):  
+## Насилие QT ради тёмной темы:  
 ```
-qt6ct-kde qt5ct-kde
+ sudo pacman -S qt5-wayland qt6-wayland qt6ct qt5ct
 ```
+Далее я в 
+```
+/etc/environment
+```
+вписал 
+```
+QT_QPA_PLATFORMTHEME=qt5ct
+```
+и перезагрузил, тёмная тема, мне уже достаточно 
+> (maybe можно без /etc/environment, но я скилл ишью)
+
+
+
 
 Насрано но должно работать.  
 Потом скопировать конфиги или просто `git clone` и всё копирнуть из .config в .config каталоге пользователя.  
@@ -64,7 +77,7 @@ sudo systemctl enable --now bluetooth
 
 > знали бы как я себя чувствовал когда гитом пользовался через терминал...
   
-##### Фоточки?
+# Фоточки?
 ![sway1](sway1.png)  
   
 и фото 2
